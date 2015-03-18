@@ -10,10 +10,9 @@
 		215941861AAE931900D16C6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 215941851AAE931900D16C6B /* main.m */; };
 		215941891AAE931900D16C6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 215941881AAE931900D16C6B /* AppDelegate.m */; };
 		2159418C1AAE931900D16C6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2159418B1AAE931900D16C6B /* ViewController.m */; };
-		2159418F1AAE931900D16C6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2159418D1AAE931900D16C6B /* Main.storyboard */; };
 		215941911AAE931900D16C6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 215941901AAE931900D16C6B /* Images.xcassets */; };
-		215941941AAE931900D16C6B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 215941921AAE931900D16C6B /* LaunchScreen.xib */; };
 		215941A01AAE931900D16C6B /* hello2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2159419F1AAE931900D16C6B /* hello2Tests.m */; };
+		215941AA1AAE975B00D16C6B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 215941A91AAE975B00D16C6B /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +33,11 @@
 		215941881AAE931900D16C6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2159418A1AAE931900D16C6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2159418B1AAE931900D16C6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2159418E1AAE931900D16C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		215941901AAE931900D16C6B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		215941931AAE931900D16C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		215941991AAE931900D16C6B /* hello2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hello2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2159419E1AAE931900D16C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2159419F1AAE931900D16C6B /* hello2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hello2Tests.m; sourceTree = "<group>"; };
+		215941A91AAE975B00D16C6B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +61,7 @@
 		215941771AAE931900D16C6B = {
 			isa = PBXGroup;
 			children = (
+				215941A91AAE975B00D16C6B /* Default-568h@2x.png */,
 				215941821AAE931900D16C6B /* hello2 */,
 				2159419C1AAE931900D16C6B /* hello2Tests */,
 				215941811AAE931900D16C6B /* Products */,
@@ -85,9 +84,7 @@
 				215941881AAE931900D16C6B /* AppDelegate.m */,
 				2159418A1AAE931900D16C6B /* ViewController.h */,
 				2159418B1AAE931900D16C6B /* ViewController.m */,
-				2159418D1AAE931900D16C6B /* Main.storyboard */,
 				215941901AAE931900D16C6B /* Images.xcassets */,
-				215941921AAE931900D16C6B /* LaunchScreen.xib */,
 				215941831AAE931900D16C6B /* Supporting Files */,
 			);
 			path = hello2;
@@ -199,9 +196,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2159418F1AAE931900D16C6B /* Main.storyboard in Resources */,
-				215941941AAE931900D16C6B /* LaunchScreen.xib in Resources */,
 				215941911AAE931900D16C6B /* Images.xcassets in Resources */,
+				215941AA1AAE975B00D16C6B /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +238,6 @@
 			targetProxy = 2159419A1AAE931900D16C6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2159418D1AAE931900D16C6B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2159418E1AAE931900D16C6B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		215941921AAE931900D16C6B /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				215941931AAE931900D16C6B /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		215941A11AAE931900D16C6B /* Debug */ = {
