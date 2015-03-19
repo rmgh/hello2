@@ -37,6 +37,14 @@
     [self.view addSubview:button];
 
     secondMessage = @"もうすぐホワイトデー。義理、本命にかかわらず、相手が喜ぶお返しをしたいもの。女子の本音や人気のギフトを参考に、準備を進めよう。";
+    
+    UIImageView *imageView = [[UIImageView alloc] init];
+    imageView.image = [UIImage imageNamed:@"TSU82_sougen500.jpg"];
+    imageView.bounds = CGRectMake(0, 0, 160, 160);
+    imageView.center = CGPointMake(self.view.center.x, 110);
+    imageView.contentMode = UIViewContentModeScaleAspectFill;
+    imageView.clipsToBounds = YES;
+    [self.view addSubview:imageView];
 }
 
 - (void)didReceiveMemoryWarning {
