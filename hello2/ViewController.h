@@ -8,10 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController {
-    UILabel *messageLabel;
-    NSString *secondMessage;
-}
+@interface ViewController : UIViewController
 
 @end
 

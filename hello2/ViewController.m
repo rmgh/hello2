@@ -8,8 +8,10 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
-
+@interface ViewController () {
+    UILabel *messageLabel;
+    NSString *secondMessage;
+}
 @end
 
 @implementation ViewController
@@ -18,11 +20,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     messageLabel = [[UILabel alloc] init];
-    messageLabel.frame = CGRectMake(30, 100, self.view.bounds.size.width - 60, self.view.bounds.size.height - 200);
     messageLabel.font = [UIFont systemFontOfSize: 20];
     messageLabel.text = @"春に向けて、お部屋をちょっとオシャレに変えたいあなた。ひとりでも簡単に使えるアイテムで、自分好みの空間作りを始めませんか。";
     messageLabel.numberOfLines = 0;
     messageLabel.lineBreakMode = NSLineBreakByCharWrapping;
+    messageLabel.frame = CGRectMake(0, 0, self.view.bounds.size.width - 60, 0);
+    [messageLabel sizeToFit];
+    messageLabel.center = self.view.center;
     [self.view addSubview:messageLabel];
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
